@@ -6,7 +6,6 @@
 body{
     font-family: "Inter", sans-serif;
     background-color: var(--background-color);
-    color: aliceblue;
 }
 
 /* comon design  */
@@ -14,12 +13,10 @@ body{
 .max-width{
     max-width: 1600px;
     margin: 0 auto;
-    /* border: 1px solid red; */
 }
 .second-max-width{
     max-width: 1200px;
     margin: 0 auto;
-    /* border: 1px solid red; */
 }
 .display-flix{
     display: flex;
@@ -160,8 +157,6 @@ header{
     color: #9100F8;
 }
 
-
-
 .microphon img{
     position: absolute;
     top: 50%;
@@ -193,7 +188,6 @@ header{
     gap: 2px;
 }
 
-
 /* podcast section  */
 
 .podcast_details{
@@ -211,6 +205,7 @@ header{
     line-height: 20px;
     margin-bottom: 50px;
     padding: 0 50px;
+    color: var(--font-color-secondary);
 }
 
 .podcast_items{
@@ -247,6 +242,7 @@ header{
 .why_choice_title h2{
     font-size: 48px;
     font-weight: bold;
+    color: var(--font-primary-color);
 }
 .choice_grid_card{
     grid-template-columns: repeat(3, 1fr);
@@ -255,7 +251,6 @@ header{
     margin-top: 40px;
 }
 .card_grid{
-    /* border: #00FF88 2px solid; */
     text-align: left;
     border-radius: 40px;
     background-color: #351165;
@@ -293,6 +288,7 @@ header{
 .epsode_box h2{
     font-size: 48px;
     font-weight: bold;
+    color: var(--font-primary-color);
 }
 
 .epsode_card{
@@ -305,7 +301,6 @@ header{
     background-color: #351165;
     border-radius: 24px;
     text-align: left;
-    /* padding: 20px; */
 }
 .project iframe{
     border-radius:20px ;
@@ -315,6 +310,7 @@ header{
 }
 .project .video_details{
     padding: 20px 20px;
+    color: var(--font-color-secondary);
 }
 .project h3{
     font-size: 24px;
@@ -363,7 +359,7 @@ header{
     font-weight: bold;
     color: var(--font-primary-color);
 }
-.host_text p{
+.host_text p, .futer_info p{
     font-size: 16px;
     color: var(--font-color-secondary);
     margin: 16px auto;
@@ -385,8 +381,6 @@ header{
     margin:  auto;
 }
 
-
-
 .footer_box{
     background-image: url(../assets/footer-bg.png);
     background-position: center center;
@@ -405,6 +399,7 @@ header{
 
 .futer_info h2{
     font-size: 4rem;
+    color: var(--font-primary-color);
 }
 .footer_list{
     align-items: center;
@@ -412,7 +407,5 @@ header{
 }
 .footer_list li a{
     gap: 8px;
-    /* align-items: center;
-    justify-content: center; */
 }
 
